@@ -176,21 +176,13 @@
     putenv("NLS_LANG=AMERICAN_AMERICA.AL32UTF8");
     session_start();
     //oracle data base address
-    $db = '
-    (DESCRIPTION=
-            (ADDRESS_LIST=
-                    (ADDRESS=(PROTOCOL=TCP)(HOST=203.249.87.57)(PORT=1521))
-            )
-            (CONNECT_DATA=
-            (SID= orcl)
-            )
-    )';
+    $db = '';
 
     //enter user name & password
 
-    $username = "db501group7";
+    $username = "";
 
-    $password = "test1234";
+    $password = "";
 
     //connect with oracle_db
     $connect = oci_connect($username, $password, $db);

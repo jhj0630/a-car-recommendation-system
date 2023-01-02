@@ -6,7 +6,7 @@
     <form class="top">
         <h1>
             <title> 회원가입</title>
-    </form>
+    
     </h1>
     </form>
     <style>

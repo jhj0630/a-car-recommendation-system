@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <form class="top">
-            <h1><title> 정보수정</title></form></h1>
+            <h1><title> 정보수정</title></h1>
         </form>
         <style>
             html {
